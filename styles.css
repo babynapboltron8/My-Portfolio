@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #d8c7c8;
+  color: #e9f1ef;
+}
+
+.header {
+  background: #252422;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  color: #d8c7c8;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #e9f1ef;
+}
+
+.navbar a {
+  color: #d8c7c8;
+  margin-left: 20px;
+  text-decoration: none;
+  background-color: red;
+  justify-content: space-between;
+}
+
+.media-icon {
+  background: white;
+}
