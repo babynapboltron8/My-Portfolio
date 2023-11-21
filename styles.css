@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-  color: #d8c7c8;
+  color: rgb(234, 255, 219);
   font-weight: 500;
   display: block;
   padding: 0 3px 0 3px;
@@ -80,7 +80,7 @@ body {
   margin-top: 10px;
 }
 .navbar a {
-  color: #d8c7c8;
+  color: rgb(234, 255, 219);
   font-weight: 500;
   margin: 0px 20px 0px 20px;
   text-decoration: none;
@@ -104,13 +104,17 @@ body {
 
 /* navbar selected link */
 .navbar a:active {
-  color: rgb(226, 255, 177);
+  color: rgb(238, 254, 174);
   font-size: 19.9px;
-  text-shadow: 0 0 25px rgb(226, 255, 177), 0 0 25px rgb(0, 250, 255);
+  text-shadow: 0 0 25px rgb(196, 249, 104), 0 0 25px rgb(7, 251, 215);
   transition: 0.5s;
-  background-color: rgb(75, 119, 99);
+  background-color: darkseagreen;
   box-shadow: #cdfffe;
   border-style: none;
+}
+
+.active:visited {
+  color: darkseagreen;
 }
 
 .media-icon a {
@@ -157,7 +161,7 @@ body {
 }
 
 /* H1 GLOW STYLES */
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c0c1c1,
       0 0 10px rgb(27, 217, 217), 0 0 20px rgb(27, 217, 217),
